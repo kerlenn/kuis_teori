@@ -1,5 +1,5 @@
 {
-  "name": "kuis_teori",
+  "name": "535240109_kuis",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,11 @@
   "dependencies": {
     "next": "16.0.3",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "bootstrap": "^5.3.3",
+    "prisma": "^6.1.0",
+    "@prisma/client": "^6.1.0",
+    "dotenv": "^16.4.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
