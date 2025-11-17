@@ -25,9 +25,8 @@ export default function ExplorePage() {
   const fetchPopularMovies = async () => {
     try {
       setLoading(true);
-      // Menggunakan TMDB API (Free, tanpa API key untuk demo)
-      // Atau gunakan API key kamu sendiri dari https://www.themoviedb.org/settings/api
-      const API_KEY = 'YOUR_TMDB_API_KEY'; // Ganti dengan API key kamu
+
+      const API_KEY = 'd4ad89e33a34e99ed5beb08b4732ae4c';
       const response = await fetch(
         `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`
       );
